@@ -2,10 +2,10 @@
 
 # valiabls
 AWS_DEFAULT_REGION=us-east-1
-AWS_ECS_TASKDEF_NAME=nginx-sample-webapp
-AWS_ECS_CLUSTER_NAME=sample-webapp-cluster
-AWS_ECS_SERVICE_NAME=sample-webapp-service
-AWS_ECR_REP_NAME=nginx-sample-webapp
+AWS_ECS_TASKDEF_NAME=sample-app
+AWS_ECS_CLUSTER_NAME=sample-app-cluster
+AWS_ECS_SERVICE_NAME=sample-app-service
+AWS_ECR_REP_NAME=sample-app
 
 # Create Task Definition
 make_task_def(){
